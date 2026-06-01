@@ -1,0 +1,59 @@
+[
+    {
+        "id": "a1b2c3d4",
+        "type": "tab",
+        "label": "Surveillance Media & Génération RSS",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "watch_node",
+        "type": "watch",
+        "z": "a1b2c3d4",
+        "name": "Surveiller /media",
+        "path": "/media",
+        "options": "recursive",
+        "x": 200,
+        "y": 200,
+        "wires": [["exec_node"]]
+    },
+    {
+        "id": "exec_node",
+        "type": "exec",
+        "z": "a1b2c3d4",
+        "command": "python3 /data/generate_feed.py",
+        "addpay": false,
+        "append": "",
+        "useSpawn": false,
+        "timer": "",
+        "olduid": "",
+        "name": "Générer RSS",
+        "x": 400,
+        "y": 200,
+        "wires": [["http_out_node"]]
+    },
+    {
+        "id": "http_in_node",
+        "type": "http in",
+        "z": "a1b2c3d4",
+        "name": "Serveur RSS",
+        "url": "/rss",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 400,
+        "wires": [["http_out_node"]]
+    },
+    {
+        "id": "http_out_node",
+        "type": "http response",
+        "z": "a1b2c3d4",
+        "name": "Envoyer RSS",
+        "statusCode": "",
+        "headers": {"Content-Type": "application/xml"},
+        "x": 400,
+        "y": 400,
+        "wires": []
+    }
+]

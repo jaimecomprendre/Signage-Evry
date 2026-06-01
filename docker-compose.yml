@@ -1,0 +1,19 @@
+services:
+  feed-watcher:
+    build: .
+    environment:
+      BASE_URL: ${BASE_URL:-http://192.168.0.5:8000}
+    volumes:
+      - "C:/Users/Lapto/CONCEPT K Dropbox/CKV2/1-Core-team-CKV2/1-Opes-CK/400-INSTAL-FIXES/415-Les-Arenes-Evry/03-TECHNIQUE/11-Réseau teledistri video/07-Caddy:/media:ro"
+      - ./rss:/app/rss
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8000:80"
+    volumes:
+      - "C:/Users/Lapto/CONCEPT K Dropbox/CKV2/1-Core-team-CKV2/1-Opes-CK/400-INSTAL-FIXES/415-Les-Arenes-Evry/03-TECHNIQUE/11-Réseau teledistri video/07-Caddy:/media:ro"
+      - ./rss:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped

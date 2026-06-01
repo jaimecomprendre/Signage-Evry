@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Auto Signage Feed - Boucle-arenes</title>
+    <item>
+      <title>ECRAN_DYNAMIQUE_KarmineCorp_resized (1) 2.jpg</title>
+      <link>http://192.168.0.5:8000/media/Boucle-arenes/ECRAN_DYNAMIQUE_KarmineCorp_resized%20%281%29%202.jpg</link>
+      <description>http://192.168.0.5:8000/media/Boucle-arenes/ECRAN_DYNAMIQUE_KarmineCorp_resized%20%281%29%202.jpg</description>
+      <guid isPermaLink="false">ecran_dynamique_karminecorp_resized_(1)_2_0001</guid>
+      <medium>image</medium>
+      <media:content url="http://192.168.0.5:8000/media/Boucle-arenes/ECRAN_DYNAMIQUE_KarmineCorp_resized%20%281%29%202.jpg" fileSize="594546" type="image/jpeg" medium="image"/>
+    </item>
+    <item>
+      <title>ECRAN_DYNAMIQUE_WorldChaseTag-920x1080 copy_resized (1).jpg</title>
+      <link>http://192.168.0.5:8000/media/Boucle-arenes/ECRAN_DYNAMIQUE_WorldChaseTag-920x1080%20copy_resized%20%281%29.jpg</link>
+      <description>http://192.168.0.5:8000/media/Boucle-arenes/ECRAN_DYNAMIQUE_WorldChaseTag-920x1080%20copy_resized%20%281%29.jpg</description>
+      <guid isPermaLink="false">ecran_dynamique_worldchasetag-920x1080_copy_resized_(1)_0002</guid>
+      <medium>image</medium>
+      <media:content url="http://192.168.0.5:8000/media/Boucle-arenes/ECRAN_DYNAMIQUE_WorldChaseTag-920x1080%20copy_resized%20%281%29.jpg" fileSize="519648" type="image/jpeg" medium="image"/>
+    </item>
+    <item>
+      <title>ecran_bienvenue_arenes_2_1 (1080p).mp4</title>
+      <link>http://192.168.0.5:8000/media/Boucle-arenes/ecran_bienvenue_arenes_2_1%20%281080p%29.mp4</link>
+      <description>http://192.168.0.5:8000/media/Boucle-arenes/ecran_bienvenue_arenes_2_1%20%281080p%29.mp4</description>
+      <guid isPermaLink="false">ecran_bienvenue_arenes_2_1_(1080p)_0003</guid>
+      <medium>video</medium>
+      <media:content url="http://192.168.0.5:8000/media/Boucle-arenes/ecran_bienvenue_arenes_2_1%20%281080p%29.mp4" fileSize="6698729" type="video/mp4" medium="video"/>
+    </item>
+  </channel>
+</rss>

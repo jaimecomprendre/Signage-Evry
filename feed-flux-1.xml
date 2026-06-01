@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Auto Signage Feed - flux-1</title>
+    <item>
+      <title>ECRAN_DYNAMIQUE_KarmineCorp_resized (1).jpg</title>
+      <link>http://localhost:8080/media/flux-1/ECRAN_DYNAMIQUE_KarmineCorp_resized (1).jpg</link>
+      <description>http://localhost:8080/media/flux-1/ECRAN_DYNAMIQUE_KarmineCorp_resized (1).jpg</description>
+      <guid isPermaLink="false">ecran_dynamique_karminecorp_resized_(1)_0001</guid>
+      <medium>image</medium>
+      <media:content url="http://localhost:8080/media/flux-1/ECRAN_DYNAMIQUE_KarmineCorp_resized (1).jpg" fileSize="594546" type="image/jpeg" medium="image"/>
+    </item>
+    <item>
+      <title>ecran_bienvenue_arenes_2_1 (1080p).mp4</title>
+      <link>http://localhost:8080/media/flux-1/ecran_bienvenue_arenes_2_1 (1080p).mp4</link>
+      <description>http://localhost:8080/media/flux-1/ecran_bienvenue_arenes_2_1 (1080p).mp4</description>
+      <guid isPermaLink="false">ecran_bienvenue_arenes_2_1_(1080p)_0002</guid>
+      <medium>video</medium>
+      <media:content url="http://localhost:8080/media/flux-1/ecran_bienvenue_arenes_2_1 (1080p).mp4" fileSize="6698729" type="video/mp4" medium="video"/>
+    </item>
+  </channel>
+</rss>

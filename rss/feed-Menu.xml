@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Auto Signage Feed - Menu</title>
+    <item>
+      <title>ECRAN_DYNAMIQUE_WorldChaseTag-920x1080 copy_resized (1).jpg</title>
+      <link>http://192.168.0.5:8000/media/Menu/ECRAN_DYNAMIQUE_WorldChaseTag-920x1080%20copy_resized%20%281%29.jpg</link>
+      <description>http://192.168.0.5:8000/media/Menu/ECRAN_DYNAMIQUE_WorldChaseTag-920x1080%20copy_resized%20%281%29.jpg</description>
+      <guid isPermaLink="false">ecran_dynamique_worldchasetag-920x1080_copy_resized_(1)_0001</guid>
+      <medium>image</medium>
+      <media:content url="http://192.168.0.5:8000/media/Menu/ECRAN_DYNAMIQUE_WorldChaseTag-920x1080%20copy_resized%20%281%29.jpg" fileSize="519648" type="image/jpeg" medium="image"/>
+    </item>
+  </channel>
+</rss>

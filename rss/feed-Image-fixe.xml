@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Auto Signage Feed - Image-fixe</title>
+    <item>
+      <title>Fonds écrans 1920x1080.png</title>
+      <link>http://192.168.0.5:8000/media/Image-fixe/Fonds%20%C3%A9crans%201920x1080.png</link>
+      <description>http://192.168.0.5:8000/media/Image-fixe/Fonds%20%C3%A9crans%201920x1080.png</description>
+      <guid isPermaLink="false">fonds_écrans_1920x1080_0001</guid>
+      <medium>image</medium>
+      <media:content url="http://192.168.0.5:8000/media/Image-fixe/Fonds%20%C3%A9crans%201920x1080.png" fileSize="119008" type="image/png" medium="image"/>
+    </item>
+  </channel>
+</rss>
