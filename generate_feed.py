@@ -9,7 +9,7 @@ from watchdog.events import FileSystemEventHandler
 
 MEDIA_DIR = "/media"
 OUTPUT_DIR = "/app/rss"
-BASE_URL = os.environ.get("BASE_URL", "http://192.168.0.5:8000")
+BASE_URL = os.environ.get("BASE_URL", "http://10.35.69.41:8000")
 FEED_TITLE = "Auto Signage Feed"
 SUPPORTED_EXTENSIONS = {
     ".jpg":  ("image/jpeg", "image"),
