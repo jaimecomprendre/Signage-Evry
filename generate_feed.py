@@ -52,8 +52,10 @@ def build_feed(folder_path, folder_name):
     for filename in filenames:
         filepath = os.path.join(folder_path, filename)
 
-        # Skip directories (avoids 4096-byte false positives)
+        # Skip directories and tiny/incomplete files (avoids 4096-byte false positives)
         if not os.path.isfile(filepath):
+            continue
+        if os.path.getsize(filepath) < 5000:
             continue
 
         ext = os.path.splitext(filename)[1].lower()
@@ -74,7 +76,6 @@ def build_feed(folder_path, folder_name):
         ET.SubElement(item, "link").text = file_url
         ET.SubElement(item, "description").text = file_url
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = guid
-        ET.SubElement(item, "medium").text = medium
         ET.SubElement(item, "media:content", {
             "url":      file_url,
             "fileSize": str(file_size),
